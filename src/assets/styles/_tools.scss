@@ -1,0 +1,18 @@
+@mixin basic-font {
+  font-family: $font-family;
+  color: $black;
+}
+
+@mixin big-underline {
+  border-bottom: 0.4rem solid $black;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+@mixin topline {
+  border-top: 0.1rem solid $black;
+}
+
+@function percent($number, $space) {
+  @return (100 - $space * ($number - 1)) / $number * 1%;
+}

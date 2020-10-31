@@ -1,0 +1,41 @@
+h1 {
+  @include basic-font;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 90%;
+}
+
+h2 {
+  @include basic-font;
+  @include big-underline;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  @include basic-font;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+p {
+  @include basic-font;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a {
+  @include basic-font;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+
+  i {
+    margin-right: 1rem;
+  }
+}
+
+a:hover {
+  color: $white;
+  background-color: $black;
+}

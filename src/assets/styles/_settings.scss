@@ -1,0 +1,13 @@
+$font-family: "Roboto", Arial, sans-serif;
+
+$black: #36332f;
+$white: #ffffff;
+
+:root {
+  font-size: 18px;
+}
+
+::selection {
+  color: $white;
+  background: $black;
+}
